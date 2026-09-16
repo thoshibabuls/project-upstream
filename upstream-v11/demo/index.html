@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en-GB" data-page="demo">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>See Upstream in action · Upstream</title>
+<meta name="description" content="We will walk you through Upstream on a workflow like yours, or set it up against one of your live mandates.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="See Upstream in action.">
+<meta property="og:description" content="We will walk you through Upstream on a workflow like yours, or set it up against one of your live mandates.">
+<meta property="og:image" content="https://thoshideveloper-cyber.github.io/project-upstream/upstream-v11/assets/product/home-1200.webp">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0A1B2E">
+<link rel="icon" href="../assets/logo/upstream-mark.svg" type="image/svg+xml">
+<script>document.documentElement.classList.add('js');</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,500;0,8..60,600;1,8..60,500&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="../assets/images/macro-navy-2-1920.webp" media="(min-width: 961px)">
+<link rel="preload" as="image" href="../assets/images/macro-navy-2-960.webp" media="(max-width: 960px)">
+<link rel="stylesheet" href="../site.css">
+<script src="../site.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- Navigation: the same on every page; the current page is marked by the build -->
+<header class="nav" id="site-nav">
+  <div class="wrap nav-bar">
+    <a class="brand" href="../">
+      <svg viewBox="0 0 120 72" aria-hidden="true"><defs><linearGradient id="ub" x1="0" x2="1" y1="1" y2="0"><stop offset="0" stop-color="#8FB1EE"/><stop offset=".55" stop-color="#3F7FDB"/><stop offset="1" stop-color="#1769D2"/></linearGradient></defs><path fill="url(#ub)" d="M2 58 C 24 57, 42 30, 62 15 C 78 4, 100 2, 116 20 C 104 14, 90 16, 78 24 C 58 37, 40 60, 2 58 Z"/><path class="m2" d="M14 68 C 38 68, 54 45, 73 33 C 90 22, 108 25, 119 42 C 108 37, 95 38, 85 44 C 66 56, 48 72, 14 68 Z"/></svg>
+      <span translate="no">Upstream</span>
+    </a>
+    <nav class="nav-links" id="nav-links" aria-label="Page sections">
+      <a href="../product/">Product</a><a href="../workflow/">Workflow</a><a href="../roadmap/" data-spy="roadmap">Roadmap</a><a href="../roadmap/#faq" data-spy="faq">FAQ</a>
+    </nav>
+    <div class="nav-end">
+      <a class="btn btn--cta btn--sm nav-d" href="../demo/" aria-current="page" data-open-form>See Upstream in action</a>
+      <a class="btn btn--cta btn--sm nav-m" href="../demo/" aria-current="page" data-open-form aria-label="See Upstream in action">See it in action</a>
+      <button type="button" class="menu-btn" id="menu-btn" aria-controls="nav-links" aria-expanded="false" aria-label="Page sections"><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<div class="nav-scrim" id="nav-scrim" aria-hidden="true"></div>
+
+<main id="main">
+<!-- See Upstream in action: the request form, on the water -->
+<section class="masthead masthead--ask on-dark" id="see" data-tone="dark" aria-labelledby="ask-title">
+    <picture class="page-water" aria-hidden="true">
+      <source media="(max-width: 960px)" srcset="../assets/images/macro-navy-2-960.webp">
+      <img src="../assets/images/macro-navy-2-1920.webp" alt="" width="1920" height="860" fetchpriority="high">
+    </picture>
+  <div class="wrap ask">
+    <div class="page-head">
+      <p class="eyebrow">Work with us</p>
+      <h1 class="h2 h2--page" id="ask-title">See Upstream in action.</h1>
+      <p class="ask-lead">We will walk you through Upstream on a workflow like yours, or set it up against one of your live mandates.</p>
+      <p class="ask-note">Working with a small number of advisory teams. No pricing page yet.</p>
+      <p class="ask-alt"><a class="textlink" href="#see" data-open-form data-intent="mandate">Bring one live mandate</a></p>
+    </div>
+    <div class="formbox page-head" id="formbox" style="--d:1">
+      <form id="pilot-form" novalidate>
+        <div class="fgrid">
+          <div class="fld"><label for="f-name">Name</label><input id="f-name" name="name" type="text" autocomplete="name" required><p class="fld-err" id="f-name-err" hidden>Enter your name.</p></div>
+          <div class="fld"><label for="f-firm">Firm</label><input id="f-firm" name="firm" type="text" autocomplete="organization" required><p class="fld-err" id="f-firm-err" hidden>Enter your firm’s name.</p></div>
+          <div class="fld"><label for="f-role">Role</label><select id="f-role" name="role"><option>Partner / MD</option><option>Principal</option><option>Associate</option><option>Analyst</option><option>Other</option></select></div>
+          <div class="fld"><label for="f-email">Work email</label><input id="f-email" name="email" type="email" inputmode="email" autocomplete="email" spellcheck="false" required><p class="fld-err" id="f-email-err" hidden>Enter a work email, like name@firm.com.</p></div>
+        </div>
+        <fieldset class="fld"><legend>What would you like to do?</legend><div class="opts"><label><input type="radio" name="intent" value="walkthrough" checked>See a walkthrough</label><label><input type="radio" name="intent" value="mandate">Bring one live mandate</label></div></fieldset>
+        <fieldset class="fld"><legend>What do you run?</legend><div class="opts"><label><input type="checkbox" name="run" value="sell-side">Sell-side</label><label><input type="checkbox" name="run" value="buy-side">Buy-side</label><label><input type="checkbox" name="run" value="capital-raise">Capital raise</label></div></fieldset>
+        <div class="form-submit"><button type="submit" class="btn btn--primary">Send request</button></div>
+        <p class="priv">We’ll use these details to reply to you and for nothing else.</p>
+      </form>
+      <div class="conf" id="confirm" role="status" aria-live="polite" hidden><p>Thank you. We’ll be in touch to arrange a time.</p><p class="proto">Prototype. Nothing was sent.</p></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- Footer: the same on every page -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="fg">
+      <div>
+        <p class="fbrand"><svg viewBox="0 0 120 72" aria-hidden="true"><defs><linearGradient id="ubf" x1="0" x2="1" y1="1" y2="0"><stop offset="0" stop-color="#8FB1EE"/><stop offset=".55" stop-color="#3F7FDB"/><stop offset="1" stop-color="#1769D2"/></linearGradient></defs><path fill="url(#ubf)" d="M2 58 C 24 57, 42 30, 62 15 C 78 4, 100 2, 116 20 C 104 14, 90 16, 78 24 C 58 37, 40 60, 2 58 Z"/><path fill="#0F2A47" d="M14 68 C 38 68, 54 45, 73 33 C 90 22, 108 25, 119 42 C 108 37, 95 38, 85 44 C 66 56, 48 72, 14 68 Z"/></svg><span translate="no">Upstream</span></p>
+        <p class="fline">Relationships compound.</p>
+        <p class="fprod">Relationship intelligence for advisory teams.</p>
+      </div>
+      <nav class="fcol" aria-labelledby="f1"><h3 id="f1"><a href="../product/">Product</a></h3><ul><li><a href="../#two-ways">Two ways in</a></li><li><a href="../workflow/">Workflow</a></li><li><a href="../product/#record">One shared record</a></li><li><a href="../product/#continuity">Continuity</a></li><li><a href="../roadmap/">Roadmap</a></li></ul></nav>
+      <nav class="fcol" aria-labelledby="f2"><h3 id="f2">Start</h3><ul><li><a href="../workflow/#start">Bring your spreadsheets</a></li><li><a href="../product/#control">Control</a></li><li><a href="../roadmap/#faq">FAQ</a></li></ul></nav>
+      <nav class="fcol" aria-labelledby="f3"><h3 id="f3">Company</h3><ul><li><a href="../demo/" data-open-form>See Upstream in action</a></li><li><a href="../demo/" data-open-form>Contact</a></li></ul></nav>
+    </div>
+    <div class="fbottom">
+      <p>People. Context. Opportunities. Over time.</p>
+      <p>© 2026 Upstream · Privacy · Terms</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

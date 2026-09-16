@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en-GB" data-page="workflow">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Workflow · Upstream</title>
+<meta name="description" content="Upstream replaces scattered spreadsheets, inbox threads and calendar reminders with one connected workspace, and gives each part of the day its own screen.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Run every mandate from one place.">
+<meta property="og:description" content="Upstream replaces scattered spreadsheets, inbox threads and calendar reminders with one connected workspace, and gives each part of the day its own screen.">
+<meta property="og:image" content="https://thoshideveloper-cyber.github.io/project-upstream/upstream-v11/assets/product/home-1200.webp">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0A1B2E">
+<link rel="icon" href="../assets/logo/upstream-mark.svg" type="image/svg+xml">
+<script>document.documentElement.classList.add('js');</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,500;0,8..60,600;1,8..60,500&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="../assets/images/macro-navy-2-1920.webp" media="(min-width: 961px)">
+<link rel="preload" as="image" href="../assets/images/macro-navy-2-960.webp" media="(max-width: 960px)">
+<link rel="stylesheet" href="../site.css">
+<script src="../site.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- Navigation: the same on every page; the current page is marked by the build -->
+<header class="nav" id="site-nav">
+  <div class="wrap nav-bar">
+    <a class="brand" href="../">
+      <svg viewBox="0 0 120 72" aria-hidden="true"><defs><linearGradient id="ub" x1="0" x2="1" y1="1" y2="0"><stop offset="0" stop-color="#8FB1EE"/><stop offset=".55" stop-color="#3F7FDB"/><stop offset="1" stop-color="#1769D2"/></linearGradient></defs><path fill="url(#ub)" d="M2 58 C 24 57, 42 30, 62 15 C 78 4, 100 2, 116 20 C 104 14, 90 16, 78 24 C 58 37, 40 60, 2 58 Z"/><path class="m2" d="M14 68 C 38 68, 54 45, 73 33 C 90 22, 108 25, 119 42 C 108 37, 95 38, 85 44 C 66 56, 48 72, 14 68 Z"/></svg>
+      <span translate="no">Upstream</span>
+    </a>
+    <nav class="nav-links" id="nav-links" aria-label="Page sections">
+      <a href="../product/">Product</a><a href="../workflow/" aria-current="page">Workflow</a><a href="../roadmap/" data-spy="roadmap">Roadmap</a><a href="../roadmap/#faq" data-spy="faq">FAQ</a>
+    </nav>
+    <div class="nav-end">
+      <a class="btn btn--cta btn--sm nav-d" href="../demo/" data-open-form>See Upstream in action</a>
+      <a class="btn btn--cta btn--sm nav-m" href="../demo/" data-open-form aria-label="See Upstream in action">See it in action</a>
+      <button type="button" class="menu-btn" id="menu-btn" aria-controls="nav-links" aria-expanded="false" aria-label="Page sections"><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<div class="nav-scrim" id="nav-scrim" aria-hidden="true"></div>
+
+<main id="main">
+<!-- Workflow: the six screens, then how a team starts -->
+<section class="page-sec" id="workflow" aria-labelledby="workflow-title">
+  <div class="masthead masthead--tabs on-dark" data-tone="dark">
+    <picture class="page-water" aria-hidden="true">
+      <source media="(max-width: 960px)" srcset="../assets/images/macro-navy-2-960.webp">
+      <img src="../assets/images/macro-navy-2-1920.webp" alt="" width="1920" height="860" fetchpriority="high">
+    </picture>
+    <div class="wrap">
+    <div class="head head--center page-head">
+      <p class="eyebrow">The workflow</p>
+      <h1 class="h2 h2--page" id="workflow-title">Run every mandate from one place.</h1>
+      <p class="lead">Upstream replaces scattered spreadsheets, inbox threads and calendar reminders with one connected workspace, and gives each part of the day its own screen.</p>
+    </div>
+    </div>
+  </div>
+  <div class="section section--white section--tabbed">
+  <div class="wrap">
+    <div class="seg-wrap seg-wrap--edge" id="seg-wrap">
+      <div class="seg" role="tablist" aria-label="Upstream screens">
+        <span class="seg-ind" aria-hidden="true"></span>
+        <button type="button" class="tab" role="tab" id="tab-projects" aria-controls="panel-projects" aria-selected="true"><i>1</i>Projects</button>
+        <button type="button" class="tab" role="tab" id="tab-master" aria-controls="panel-master" aria-selected="false" tabindex="-1"><i>2</i>Master List</button>
+        <button type="button" class="tab" role="tab" id="tab-sourcing" aria-controls="panel-sourcing" aria-selected="false" tabindex="-1"><i>3</i>Sourcing</button>
+        <button type="button" class="tab" role="tab" id="tab-desk" aria-controls="panel-desk" aria-selected="false" tabindex="-1"><i>4</i>Outreach desk</button>
+        <button type="button" class="tab" role="tab" id="tab-contacts" aria-controls="panel-contacts" aria-selected="false" tabindex="-1"><i>5</i>Contacts</button>
+        <button type="button" class="tab" role="tab" id="tab-analytics" aria-controls="panel-analytics" aria-selected="false" tabindex="-1"><i>6</i>Analytics</button>
+      </div>
+    </div>
+
+    <div class="tabs" id="tabs">
+      <div class="panel" role="tabpanel" id="panel-projects" aria-labelledby="tab-projects">
+        <div class="panel-head"><h2><span class="panel-n">Projects</span>Every mandate has a place.</h2><p>Keep companies, engagements, progress, team members and next steps connected to the work that matters.</p></div>
+        <div class="fig" data-explain data-mz="2.4" style="--mz: 2.4">
+          <div class="stage"><div class="frame frame--light"><div class="screen"><div class="canvas">
+            <div class="clip">
+              <a class="shot-link" href="../assets/product/projects-1800.webp" target="_blank" rel="noopener"><img src="../assets/product/projects-1800.webp" srcset="../assets/product/projects-900.webp 900w, ../assets/product/projects-1800.webp 1800w" sizes="(min-width: 1320px) 1090px, (max-width: 640px) 800px, 86vw" width="1800" height="738" loading="lazy" alt="The Projects screen: four projects, each with a bar showing late, intro pending, replied and in-progress companies, and columns for companies, late follow-ups, intros pending, response rate, open work and team."><span class="shot-open" aria-hidden="true">Open full size</span></a>
+              <span class="region" data-n="1" style="--x:46.1; --y:23.8; --w:15.3; --h:43.6" aria-hidden="true"></span>
+              <span class="region" data-n="2" style="--x:69.2; --y:23.8; --w:3.8; --h:51.4" aria-hidden="true"></span>
+              <span class="region" data-n="3" style="--x:80.2; --y:23.8; --w:3.9; --h:51.4" aria-hidden="true"></span>
+            </div>
+            <span class="marker" data-n="1" style="--x:45.3; --y:25.1; --i:0" aria-hidden="true">1</span>
+            <span class="marker" data-n="2" style="--x:68.1; --y:25.1; --i:1" aria-hidden="true">2</span>
+            <span class="marker" data-n="3" style="--x:79.4; --y:25.1; --i:2" aria-hidden="true">3</span>
+          </div></div><span class="pan-hint" aria-hidden="true"><svg viewBox="0 0 18 18" fill="none"><path d="M5.5 5.5L2 9l3.5 3.5M12.5 5.5L16 9l-3.5 3.5M2.5 9h13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div></div>
+          <ol class="keys">
+            <li data-n="1"><span class="n" aria-hidden="true">1</span><div><h3><button type="button" class="key" aria-pressed="false">Where every company stands.</button></h3><p>One bar per project, split by where each company is.</p><p class="swatches"><span><i class="lg-late"></i>Late</span><span><i class="lg-intro"></i>Intro pending</span><span><i class="lg-replied"></i>Replied</span><span><i class="lg-progress"></i>In progress</span><span><i class="lg-cold"></i>Cold</span></p></div></li>
+            <li data-n="2"><span class="n" aria-hidden="true">2</span><div><h3><button type="button" class="key" aria-pressed="false">What is late.</button></h3><p>Follow-ups past their date. The number to clear first.</p></div></li>
+            <li data-n="3"><span class="n" aria-hidden="true">3</span><div><h3><button type="button" class="key" aria-pressed="false">What is working.</button></h3><p>The share of contacted companies that have replied.</p></div></li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="panel" role="tabpanel" id="panel-master" aria-labelledby="tab-master">
+        <div class="panel-head"><h2><span class="panel-n">Master List</span>One shared record of the market.</h2><p>Keep the firm’s companies, locations, categories and the mandates each one has been on in one searchable record.</p></div>
+        <div class="fig" data-explain data-mz="2.2" style="--mz: 2.2">
+          <div class="stage"><div class="frame frame--light"><div class="screen"><div class="canvas">
+            <div class="clip">
+              <a class="shot-link" href="../assets/product/master-1800.webp" target="_blank" rel="noopener"><img src="../assets/product/master-1800.webp" srcset="../assets/product/master-900.webp 900w, ../assets/product/master-1800.webp 1800w" sizes="(min-width: 1320px) 1090px, (max-width: 640px) 800px, 86vw" width="1800" height="1125" loading="lazy" alt="The Master List firm database: one row per company with its city, the mandates it sits on, the analysts who worked it, revenue, staff and deal count. Two companies carry an amber Overlap mark."><span class="shot-open" aria-hidden="true">Open full size</span></a>
+              <span class="region" data-n="1" style="--x:19.5; --y:27.6; --w:78.3; --h:12.8" aria-hidden="true"></span>
+              <span class="region" data-n="2" style="--x:31.2; --y:28.3; --w:4.3; --h:3.3" aria-hidden="true"></span>
+              <span class="region" data-n="3" style="--x:40.9; --y:20.1; --w:7.2; --h:72.7" aria-hidden="true"></span>
+            </div>
+            <span class="marker" data-n="1" style="--x:19.5; --y:27.6; --i:0" aria-hidden="true">1</span>
+            <span class="marker" data-n="2" style="--x:37.6; --y:28.3; --i:1" aria-hidden="true">2</span>
+            <span class="marker" data-n="3" style="--x:48.1; --y:20.1; --i:2" aria-hidden="true">3</span>
+          </div></div><span class="pan-hint" aria-hidden="true"><svg viewBox="0 0 18 18" fill="none"><path d="M5.5 5.5L2 9l3.5 3.5M12.5 5.5L16 9l-3.5 3.5M2.5 9h13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div></div>
+          <ol class="keys">
+            <li data-n="1"><span class="n" aria-hidden="true">1</span><div><h3><button type="button" class="key" aria-pressed="false">One row per company.</button></h3><p>Its city, and every mandate it has been on.</p></div></li>
+            <li data-n="2"><span class="n" aria-hidden="true">2</span><div><h3><button type="button" class="key" aria-pressed="false">Overlap, marked.</button></h3><p>A company on more than one mandate says so, before anyone reaches out twice.</p></div></li>
+            <li data-n="3"><span class="n" aria-hidden="true">3</span><div><h3><button type="button" class="key" aria-pressed="false">Who worked it.</button></h3><p>The analysts behind each company, across mandates.</p></div></li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="panel" role="tabpanel" id="panel-sourcing" aria-labelledby="tab-sourcing">
+        <div class="panel-head"><h2><span class="panel-n">Sourcing</span>Find the next right target.</h2><p>Discover, filter and score companies from your firm’s database and Upstream’s proprietary company database, then push the right ones into an active mandate.</p></div>
+        <div class="fig" data-explain data-mz="2.2" style="--mz: 2.2">
+          <div class="stage"><div class="frame frame--light"><div class="screen"><div class="canvas">
+            <div class="clip">
+              <a class="shot-link" href="../assets/product/sourcing-1800.webp" target="_blank" rel="noopener"><img src="../assets/product/sourcing-1800.webp" srcset="../assets/product/sourcing-900.webp 900w, ../assets/product/sourcing-1800.webp 1800w" sizes="(min-width: 1320px) 1090px, (max-width: 640px) 800px, 86vw" width="1800" height="1125" loading="lazy" alt="The Sourcing screen for a sell-side engagement: a search across 353 companies with side, sector, size and worked-before filters, a Score matches button, and candidate rows marked target or buyer, each with a Push button."><span class="shot-open" aria-hidden="true">Open full size</span></a>
+              <span class="region" data-n="1" style="--x:20.6; --y:15.6; --w:75.9; --h:15.4" aria-hidden="true"></span>
+              <span class="region" data-n="2" style="--x:19.5; --y:41.1; --w:17.4; --h:59" aria-hidden="true"></span>
+              <span class="region" data-n="3" style="--x:86.6; --y:33; --w:10.2; --h:66" aria-hidden="true"></span>
+            </div>
+            <span class="marker" data-n="1" style="--x:20.6; --y:15.6; --i:0" aria-hidden="true">1</span>
+            <span class="marker" data-n="2" style="--x:19.5; --y:41.1; --i:1" aria-hidden="true">2</span>
+            <span class="marker" data-n="3" style="--x:87.2; --y:31; --i:2" aria-hidden="true">3</span>
+          </div></div><span class="pan-hint" aria-hidden="true"><svg viewBox="0 0 18 18" fill="none"><path d="M5.5 5.5L2 9l3.5 3.5M12.5 5.5L16 9l-3.5 3.5M2.5 9h13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div></div>
+          <ol class="keys">
+            <li data-n="1"><span class="n" aria-hidden="true">1</span><div><h3><button type="button" class="key" aria-pressed="false">Search and filter.</button></h3><p>By name, city or domain, then by side, sector, size and whether the firm has worked a company before.</p></div></li>
+            <li data-n="2"><span class="n" aria-hidden="true">2</span><div><h3><button type="button" class="key" aria-pressed="false">Two databases, one search.</button></h3><p>Companies your firm knows, beside Upstream’s own company database.</p></div></li>
+            <li data-n="3"><span class="n" aria-hidden="true">3</span><div><h3><button type="button" class="key" aria-pressed="false">Score, then push.</button></h3><p>Rank candidates against the mandate and move the right ones into outreach.</p></div></li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="panel" role="tabpanel" id="panel-desk" aria-labelledby="tab-desk">
+        <div class="panel-head"><h2><span class="panel-n">Outreach desk</span>Keep every conversation moving.</h2><p>Work follow-ups in order of urgency, clear overdue touches first and make sure promising conversations do not go quiet.</p></div>
+        <div class="fig" data-explain data-mz="2.2" style="--mz: 2.2">
+          <div class="stage"><div class="frame frame--light"><div class="screen"><div class="canvas">
+            <div class="clip">
+              <a class="shot-link" href="../assets/product/schedule-1800.webp" target="_blank" rel="noopener"><img src="../assets/product/schedule-1800.webp" srcset="../assets/product/schedule-900.webp 900w, ../assets/product/schedule-1800.webp 1800w" sizes="(min-width: 1320px) 1090px, (max-width: 640px) 800px, 86vw" width="1800" height="1125" loading="lazy" alt="The Outreach desk: a horizon of late, today and the next six days; a Next action row for the most urgent company with a Log follow-up button; then an Overdue band listing companies by days late."><span class="shot-open" aria-hidden="true">Open full size</span></a>
+              <span class="region" data-n="1" style="--x:19.5; --y:19.6; --w:78.3; --h:6.9" aria-hidden="true"></span>
+              <span class="region" data-n="2" style="--x:19.5; --y:28.3; --w:78.3; --h:12.6" aria-hidden="true"></span>
+              <span class="region" data-n="3" style="--x:19.5; --y:40.9; --w:78.3; --h:59.1" aria-hidden="true"></span>
+            </div>
+            <span class="marker" data-n="1" style="--x:18.6; --y:19.6; --i:0" aria-hidden="true">1</span>
+            <span class="marker" data-n="2" style="--x:18.6; --y:28.3; --i:1" aria-hidden="true">2</span>
+            <span class="marker" data-n="3" style="--x:18.6; --y:40.9; --i:2" aria-hidden="true">3</span>
+          </div></div><span class="pan-hint" aria-hidden="true"><svg viewBox="0 0 18 18" fill="none"><path d="M5.5 5.5L2 9l3.5 3.5M12.5 5.5L16 9l-3.5 3.5M2.5 9h13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div></div>
+          <ol class="keys">
+            <li data-n="1"><span class="n" aria-hidden="true">1</span><div><h3><button type="button" class="key" aria-pressed="false">The week ahead.</button></h3><p>Late, today and the next six days, counted for you.</p></div></li>
+            <li data-n="2"><span class="n" aria-hidden="true">2</span><div><h3><button type="button" class="key" aria-pressed="false">One next action.</button></h3><p>The most urgent company, and the button that logs the follow-up.</p></div></li>
+            <li data-n="3"><span class="n" aria-hidden="true">3</span><div><h3><button type="button" class="key" aria-pressed="false">Overdue, oldest first.</button></h3><p>Every late follow-up in order, with how many days late it is.</p></div></li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="panel" role="tabpanel" id="panel-contacts" aria-labelledby="tab-contacts">
+        <div class="panel-head"><h2><span class="panel-n">Contacts</span>Keep the people behind the companies visible.</h2><p>Organise the people your firm knows and connect them to the companies and mandates where they matter.</p></div>
+        <div class="fig" data-explain data-mz="2.2" style="--mz: 2.2">
+          <div class="stage"><div class="frame frame--light"><div class="screen"><div class="canvas">
+            <div class="clip">
+              <a class="shot-link" href="../assets/product/contacts-1800.webp" target="_blank" rel="noopener"><img src="../assets/product/contacts-1800.webp" srcset="../assets/product/contacts-900.webp 900w, ../assets/product/contacts-1800.webp 1800w" sizes="(min-width: 1320px) 1090px, (max-width: 640px) 800px, 86vw" width="1800" height="1125" loading="lazy" alt="The Contacts screen: an A to Z list of people with their role and company, and a reading pane that counts 256 people at 136 companies and lists the companies with the deepest benches."><span class="shot-open" aria-hidden="true">Open full size</span></a>
+              <span class="region" data-n="1" style="--x:19.5; --y:9.4; --w:49; --h:88.4" aria-hidden="true"></span>
+              <span class="region" data-n="2" style="--x:70; --y:9.4; --w:27.9; --h:16.4" aria-hidden="true"></span>
+              <span class="region" data-n="3" style="--x:70; --y:26.1; --w:27.9; --h:18.3" aria-hidden="true"></span>
+            </div>
+            <span class="marker" data-n="1" style="--x:18.6; --y:9.4; --i:0" aria-hidden="true">1</span>
+            <span class="marker" data-n="2" style="--x:70; --y:9.4; --i:1" aria-hidden="true">2</span>
+            <span class="marker" data-n="3" style="--x:69.4; --y:26.1; --i:2" aria-hidden="true">3</span>
+          </div></div><span class="pan-hint" aria-hidden="true"><svg viewBox="0 0 18 18" fill="none"><path d="M5.5 5.5L2 9l3.5 3.5M12.5 5.5L16 9l-3.5 3.5M2.5 9h13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div></div>
+          <ol class="keys">
+            <li data-n="1"><span class="n" aria-hidden="true">1</span><div><h3><button type="button" class="key" aria-pressed="false">Everyone the firm knows.</button></h3><p>People from A to Z, with their role and company.</p></div></li>
+            <li data-n="2"><span class="n" aria-hidden="true">2</span><div><h3><button type="button" class="key" aria-pressed="false">The full picture of a person.</button></h3><p>Pick someone to see how to reach them, every logged touch, and their notes and tasks.</p></div></li>
+            <li data-n="3"><span class="n" aria-hidden="true">3</span><div><h3><button type="button" class="key" aria-pressed="false">Deepest benches.</button></h3><p>The companies where the firm knows the most people.</p></div></li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="panel" role="tabpanel" id="panel-analytics" aria-labelledby="tab-analytics">
+        <div class="panel-head"><h2><span class="panel-n">Analytics</span>See what your outreach is producing.</h2><p>Understand reply rates, follow-up timing, sourcing activity and where the process loses momentum.</p></div>
+        <div class="fig" data-explain data-mz="2.2" style="--mz: 2.2">
+          <div class="stage"><div class="frame frame--light"><div class="screen"><div class="canvas">
+            <div class="clip">
+              <a class="shot-link" href="../assets/product/analytics-1800.webp" target="_blank" rel="noopener"><img src="../assets/product/analytics-1800.webp" srcset="../assets/product/analytics-900.webp 900w, ../assets/product/analytics-1800.webp 1800w" sizes="(min-width: 1320px) 1090px, (max-width: 640px) 800px, 86vw" width="1800" height="1125" loading="lazy" alt="The Analytics screen: a finding line about overdue companies, figures for emails sent, reply rate, interested and bounce rate, an outreach funnel that marks the biggest drop-off, weekly volume and replies charts, and reply timing."><span class="shot-open" aria-hidden="true">Open full size</span></a>
+              <span class="region" data-n="1" style="--x:19.5; --y:9.5; --w:78.3; --h:12" aria-hidden="true"></span>
+              <span class="region" data-n="2" style="--x:19.5; --y:22.9; --w:78.3; --h:11.1" aria-hidden="true"></span>
+              <span class="region" data-n="3" style="--x:19.5; --y:35.3; --w:78.3; --h:22.2" aria-hidden="true"></span>
+            </div>
+            <span class="marker" data-n="1" style="--x:18.6; --y:10.3; --i:0" aria-hidden="true">1</span>
+            <span class="marker" data-n="2" style="--x:18.6; --y:22.9; --i:1" aria-hidden="true">2</span>
+            <span class="marker" data-n="3" style="--x:18.6; --y:35.3; --i:2" aria-hidden="true">3</span>
+          </div></div><span class="pan-hint" aria-hidden="true"><svg viewBox="0 0 18 18" fill="none"><path d="M5.5 5.5L2 9l3.5 3.5M12.5 5.5L16 9l-3.5 3.5M2.5 9h13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div></div>
+          <ol class="keys">
+            <li data-n="1"><span class="n" aria-hidden="true">1</span><div><h3><button type="button" class="key" aria-pressed="false">The finding first.</button></h3><p>One line on what needs doing, before any chart.</p></div></li>
+            <li data-n="2"><span class="n" aria-hidden="true">2</span><div><h3><button type="button" class="key" aria-pressed="false">The figures that matter.</button></h3><p>Emails sent, reply rate, interested and bounce rate.</p></div></li>
+            <li data-n="3"><span class="n" aria-hidden="true">3</span><div><h3><button type="button" class="key" aria-pressed="false">Where momentum is lost.</button></h3><p>The funnel marks the biggest drop-off between contacted, replied and interested.</p></div></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <p class="cap">Screens from Upstream. The firm, people and companies shown are fictional.</p>
+  </div>
+  </div>
+</section>
+
+<!-- Getting started: four steps, then the import screen -->
+<section class="section" id="start" aria-labelledby="start-title">
+  <div class="wrap">
+    <div class="split rv">
+      <div>
+        <p class="eyebrow">Getting started</p>
+        <h2 class="h2" id="start-title">Bring the work into one shared record.</h2>
+      </div>
+      <p class="lead">Start from the spreadsheets your team already keeps. Upstream reads the whole client workbook and shows you what it found before anything is written.</p>
+    </div>
+    <ol class="steps">
+      <li class="rv" style="--d:0"><span class="step-n" aria-hidden="true">1</span><h3>Upload the workbooks</h3><p>Your company lists, outreach tracker and contact sheets, together.</p></li>
+      <li class="rv" style="--d:1"><span class="step-n" aria-hidden="true">2</span><h3>Map the project</h3><p>Choose the project and engagements each sheet belongs to.</p></li>
+      <li class="rv" style="--d:2"><span class="step-n" aria-hidden="true">3</span><h3>Review before applying</h3><p>See the companies, contacts and outreach history it found, and resolve anything it cannot safely match.</p></li>
+      <li class="rv" style="--d:3"><span class="step-n" aria-hidden="true">4</span><h3>Keep working</h3><p>Log the outreach you already do. Follow-ups, history and reporting build from it.</p></li>
+    </ol>
+    <div class="bring bring--solo">
+      <figure class="fig fig--import rv" data-mz="1.8" style="--mz: 1.8">
+        <div class="stage"><div class="frame frame--light"><div class="screen"><div class="canvas">
+          <div class="clip"><a class="shot-link" href="../assets/product/import-crop-1600.webp" target="_blank" rel="noopener"><img src="../assets/product/import-crop-1600.webp" srcset="../assets/product/import-crop-800.webp 800w, ../assets/product/import-crop-1600.webp 1600w" sizes="(min-width: 1180px) 1040px, (max-width: 640px) 660px, 90vw" width="1600" height="903" loading="lazy" alt="The Import from Excel screen: bring your existing workflow into Upstream, four steps from upload to apply, a drop zone with a Choose workbooks button, and a key showing which sheet becomes the firm's companies and engagements, its outreach log and its contacts."><span class="shot-open" aria-hidden="true">Open full size</span></a></div>
+        </div></div><span class="pan-hint" aria-hidden="true"><svg viewBox="0 0 18 18" fill="none"><path d="M5.5 5.5L2 9l3.5 3.5M12.5 5.5L16 9l-3.5 3.5M2.5 9h13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div></div>
+        <figcaption class="cap">Import in Upstream.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- Footer: the same on every page -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="fg">
+      <div>
+        <p class="fbrand"><svg viewBox="0 0 120 72" aria-hidden="true"><defs><linearGradient id="ubf" x1="0" x2="1" y1="1" y2="0"><stop offset="0" stop-color="#8FB1EE"/><stop offset=".55" stop-color="#3F7FDB"/><stop offset="1" stop-color="#1769D2"/></linearGradient></defs><path fill="url(#ubf)" d="M2 58 C 24 57, 42 30, 62 15 C 78 4, 100 2, 116 20 C 104 14, 90 16, 78 24 C 58 37, 40 60, 2 58 Z"/><path fill="#0F2A47" d="M14 68 C 38 68, 54 45, 73 33 C 90 22, 108 25, 119 42 C 108 37, 95 38, 85 44 C 66 56, 48 72, 14 68 Z"/></svg><span translate="no">Upstream</span></p>
+        <p class="fline">Relationships compound.</p>
+        <p class="fprod">Relationship intelligence for advisory teams.</p>
+      </div>
+      <nav class="fcol" aria-labelledby="f1"><h3 id="f1"><a href="../product/">Product</a></h3><ul><li><a href="../#two-ways">Two ways in</a></li><li><a href="../workflow/">Workflow</a></li><li><a href="../product/#record">One shared record</a></li><li><a href="../product/#continuity">Continuity</a></li><li><a href="../roadmap/">Roadmap</a></li></ul></nav>
+      <nav class="fcol" aria-labelledby="f2"><h3 id="f2">Start</h3><ul><li><a href="../workflow/#start">Bring your spreadsheets</a></li><li><a href="../product/#control">Control</a></li><li><a href="../roadmap/#faq">FAQ</a></li></ul></nav>
+      <nav class="fcol" aria-labelledby="f3"><h3 id="f3">Company</h3><ul><li><a href="../demo/" data-open-form>See Upstream in action</a></li><li><a href="../demo/" data-open-form>Contact</a></li></ul></nav>
+    </div>
+    <div class="fbottom">
+      <p>People. Context. Opportunities. Over time.</p>
+      <p>© 2026 Upstream · Privacy · Terms</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 72" role="img" aria-label="Upstream">
+  <!-- Prototype recreation of the Upstream symbol from the brand board. Not the master artwork. -->
+  <defs>
+    <linearGradient id="up-blue" x1="0" x2="1" y1="1" y2="0"><stop offset="0" stop-color="#8FB1EE"/><stop offset=".55" stop-color="#3B74E6"/><stop offset="1" stop-color="#2563EB"/></linearGradient>
+    <linearGradient id="up-navy" x1="0" x2="1" y1="1" y2="0"><stop offset="0" stop-color="#2B4C74"/><stop offset="1" stop-color="#0B2A4A"/></linearGradient>
+  </defs>
+  <path fill="url(#up-blue)" d="M2 58 C 24 57, 42 30, 62 15 C 78 4, 100 2, 116 20 C 104 14, 90 16, 78 24 C 58 37, 40 60, 2 58 Z"/>
+  <path fill="url(#up-navy)" d="M14 68 C 38 68, 54 45, 73 33 C 90 22, 108 25, 119 42 C 108 37, 95 38, 85 44 C 66 56, 48 72, 14 68 Z"/>
+</svg>
